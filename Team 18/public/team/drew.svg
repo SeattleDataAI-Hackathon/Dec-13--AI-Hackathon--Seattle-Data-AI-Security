@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Background -->
+  <circle cx="100" cy="100" r="100" fill="#e6f3ff"/>
+  
+  <!-- Face -->
+  <circle cx="100" cy="95" r="48" fill="#F2D7B8"/>
+  
+  <!-- Hair -->
+  <ellipse cx="100" cy="55" rx="50" ry="35" fill="#4a3728"/>
+  <rect x="55" y="60" width="90" height="25" fill="#4a3728"/>
+  <path d="M 55 70 Q 60 65 65 70" fill="#4a3728"/>
+  <path d="M 70 68 Q 75 63 80 68" fill="#4a3728"/>
+  <path d="M 120 68 Q 125 63 130 68" fill="#4a3728"/>
+  <path d="M 135 70 Q 140 65 145 70" fill="#4a3728"/>
+  
+  <!-- Eyes -->
+  <circle cx="85" cy="90" r="5" fill="#2c1810"/>
+  <circle cx="115" cy="90" r="5" fill="#2c1810"/>
+  <circle cx="86" cy="88" r="2" fill="#ffffff"/>
+  <circle cx="116" cy="88" r="2" fill="#ffffff"/>
+  
+  <!-- Eyebrows -->
+  <path d="M 77 80 Q 85 78 92 80" stroke="#4a3728" stroke-width="2.5" fill="none"/>
+  <path d="M 108 80 Q 115 78 122 80" stroke="#4a3728" stroke-width="2.5" fill="none"/>
+  
+  <!-- Nose -->
+  <path d="M 100 98 L 102 105" stroke="#d4a890" stroke-width="2" fill="none"/>
+  <path d="M 98 105 L 102 105" stroke="#d4a890" stroke-width="1.5" fill="none"/>
+  
+  <!-- Mouth -->
+  <path d="M 90 112 Q 100 117 110 112" stroke="#b87c5c" stroke-width="2" fill="none" stroke-linecap="round"/>
+  
+  <!-- Glasses -->
+  <circle cx="85" cy="90" r="12" fill="none" stroke="#2c3e50" stroke-width="2"/>
+  <circle cx="115" cy="90" r="12" fill="none" stroke="#2c3e50" stroke-width="2"/>
+  <line x1="97" y1="90" x2="103" y2="90" stroke="#2c3e50" stroke-width="2"/>
+  <line x1="73" y1="88" x2="68" y2="85" stroke="#2c3e50" stroke-width="2"/>
+  <line x1="127" y1="88" x2="132" y2="85" stroke="#2c3e50" stroke-width="2"/>
+  
+  <!-- Body/Shoulders -->
+  <ellipse cx="100" cy="170" rx="60" ry="35" fill="#3498db"/>
+  <rect x="40" y="140" width="120" height="60" fill="#3498db" rx="10"/>
+  
+  <!-- Collar -->
+  <path d="M 85 145 L 85 155 L 100 160 L 115 155 L 115 145" fill="#2c5f8d" stroke="#2c5f8d" stroke-width="1"/>
+  
+  <!-- Neck -->
+  <rect x="90" y="135" width="20" height="20" fill="#F2D7B8"/>
+</svg>
