@@ -25,7 +25,16 @@ Have an AI agent help you schedule your next visit
 - https://v0.app v0 by Vercel, for UI Vibe coding and Protype
 - https://vapi.ai/ Voice AI agents
 - https://google.github.io/adk-docs/ Google Agent Development Kit
+- https://supabase.com/ backend
+
+### Slides
+
+[Slides](TapCare Assistant presentation.pptx)
 
 ### Preview
 
-![Alt Text](./WebDemoSimple.gif)
+![WebSiteDemo](./WebDemoSimple.gif)
+
+### Workflow Diagram
+
+![Workflow](./TapCareAssistant-WORKFLOW.png)
