@@ -52,7 +52,7 @@ if (!options.denial || !options.notes) {
 async function main() {
   try {
     console.log('╔════════════════════════════════════════════════════════╗');
-    console.log('║        CLAIM CRUSHER - AI Appeal Generator            ║');
+    console.log('║        AppealWriter AI - AI Appeal Generator           ║');
     console.log('╚════════════════════════════════════════════════════════╝\n');
 
     // Initialize agent
@@ -106,7 +106,7 @@ async function main() {
     console.log('\n═══════════════════════════════════════════════════════════\n');
 
     // Save to file
-    const output = `CLAIM CRUSHER APPEAL ANALYSIS
+    const output = `AppealWriter AI APPEAL ANALYSIS
 Generated: ${new Date().toLocaleString()}
 
 SCENARIO: ${result.scenario}
@@ -146,7 +146,7 @@ ${result.appeal_letter}
 
     // Save logs
     const logs = agent.getLogs();
-    const logsOutput = `CLAIM CRUSHER - AGENT ACTIVITY LOGS\nGenerated: ${new Date().toLocaleString()}\n\n${'='.repeat(70)}\n\n${logs.join('\n')}\n\n${'='.repeat(70)}\n\nTotal tool calls: ${logs.filter(l => l.includes('Tool Call:')).length}\n`;
+    const logsOutput = `AppealWriter AI - AGENT ACTIVITY LOGS\nGenerated: ${new Date().toLocaleString()}\n\n${'='.repeat(70)}\n\n${logs.join('\n')}\n\n${'='.repeat(70)}\n\nTotal tool calls: ${logs.filter(l => l.includes('Tool Call:')).length}\n`;
     writeFileSync(logsFile, logsOutput);
     console.log(`📋 Activity logs saved to: ${logsFile}\n`);
   } catch (error) {

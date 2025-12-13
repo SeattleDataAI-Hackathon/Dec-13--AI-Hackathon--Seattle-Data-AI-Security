@@ -1,4 +1,4 @@
-# Claim Crusher 🏥⚡
+# AppealWriter AI
 
 AI-powered medical billing appeal generator that analyzes claim denials and generates evidence-based appeal letters using Azure OpenAI.
 
@@ -63,7 +63,7 @@ AZURE_OPENAI_DEPLOYMENT=gpt-4
 
 ### 🚀 Quick Start - Run Test Scenarios
 
-The easiest way to test Claim Crusher is with built-in scenarios:
+The easiest way to test AppealWriter AI is with built-in scenarios:
 
 ```bash
 # List all available scenarios

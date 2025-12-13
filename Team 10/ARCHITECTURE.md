@@ -1,8 +1,8 @@
-# Claim Crusher - Architecture Overview
+# AppealWriter AI - Architecture Overview
 
 ## What It Does
 
-Claim Crusher is an AI-powered tool that helps healthcare providers appeal denied medical insurance claims. It analyzes denial letters and clinical notes to automatically generate professional, evidence-based appeal letters.
+AppealWriter AI is an AI-powered tool that helps healthcare providers appeal denied medical insurance claims. It analyzes denial letters and clinical notes to automatically generate professional, evidence-based appeal letters.
 
 ## Core Problem Solved
 
@@ -12,7 +12,7 @@ When insurance companies deny medical claims, providers must manually:
 3. Identify coding errors (ICD-10/CPT mismatches)
 4. Write a formal appeal letter with specific citations
 
-Claim Crusher automates this entire workflow using AI.
+AppealWriter AI automates this entire workflow using AI.
 
 ---
 

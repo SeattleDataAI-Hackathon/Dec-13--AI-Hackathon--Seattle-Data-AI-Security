@@ -1,6 +1,6 @@
 # Test Scenarios Guide
 
-This document provides detailed information about each test scenario included with Claim Crusher.
+This document provides detailed information about each test scenario included with AppealWriter AI.
 
 ## Overview
 
