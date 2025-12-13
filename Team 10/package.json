@@ -1,0 +1,32 @@
+{
+  "name": "claim-crusher",
+  "version": "1.0.0",
+  "description": "AI-powered medical billing appeal generator",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "dev": "tsx watch src/index.ts",
+    "list": "tsx src/index.ts --list",
+    "scenario:1": "tsx src/index.ts --scenario 1",
+    "scenario:2": "tsx src/index.ts --scenario 2",
+    "scenario:3": "tsx src/index.ts --scenario 3",
+    "scenario:4": "tsx src/index.ts --scenario 4",
+    "scenario:5": "tsx src/index.ts --scenario 5",
+    "embed": "tsx scripts/generate-embeddings.ts",
+    "parse-addenda": "tsx scripts/parse-addenda.ts"
+  },
+  "keywords": ["medical-billing", "ai", "appeals", "azure-openai"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "openai": "^4.68.0",
+    "dotenv": "^16.4.5",
+    "commander": "^12.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "typescript": "^5.7.2",
+    "tsx": "^4.19.2"
+  }
+}

@@ -1,0 +1,115 @@
+PATIENT: Sarah Johnson
+PATIENT ID: PAT-2024-78392
+PROVIDER: Dr. Michael Chen, Orthopedic Specialists
+
+================================================================================
+DATE: August 15, 2024
+VISIT TYPE: Initial Consultation
+CHIEF COMPLAINT: Lower back pain x 8 weeks
+
+HISTORY OF PRESENT ILLNESS:
+Patient is a 42-year-old female presenting with chronic lower back pain in the L4-L5 region. Pain started approximately 8 weeks ago while lifting boxes. Pain is constant, rated 7/10, worse with prolonged sitting or standing. Patient reports radiating pain down left leg.
+
+PHYSICAL EXAMINATION:
+- Tenderness to palpation over L4-L5
+- Positive straight leg raise test on left
+- Decreased range of motion with forward flexion
+- No signs of cauda equina syndrome
+
+ASSESSMENT: Chronic lumbar radiculopathy, likely L4-L5 disc involvement
+
+PLAN:
+1. Start Ibuprofen 600mg TID with food
+2. Referral to physical therapy - 12 sessions approved
+3. Activity modification - avoid heavy lifting
+4. Follow up in 4 weeks
+
+================================================================================
+DATE: August 22, 2024
+VISIT TYPE: Physical Therapy - Session 1/12
+THERAPIST: Jane Martinez, PT, DPT
+
+SUBJECTIVE: Patient reports pain level 7/10 today. Difficulty with prolonged sitting.
+
+OBJECTIVE: Limited lumbar flexion (60% normal), hamstring tightness bilateral
+
+TREATMENT:
+- Therapeutic exercises: pelvic tilts, knee to chest stretches
+- Manual therapy: soft tissue mobilization lumbar paraspinals
+- Patient education on proper body mechanics
+
+ASSESSMENT: Patient tolerating therapy well. Good engagement.
+
+PLAN: Continue PT 3x/week. Progress to core strengthening next session.
+
+================================================================================
+DATE: August 29, 2024
+VISIT TYPE: Physical Therapy - Session 4/12
+
+SUBJECTIVE: Pain improved to 6/10. Better tolerance for sitting.
+
+TREATMENT: Core stabilization exercises, lumbar mobilization, heat therapy
+
+PROGRESS: Patient showing gradual improvement in flexibility and pain tolerance.
+
+================================================================================
+DATE: September 5, 2024
+VISIT TYPE: Physical Therapy - Session 6/12
+
+SUBJECTIVE: Pain level 6/10. Some improvement with ADLs.
+
+TREATMENT: Advanced core exercises, McKenzie extension exercises, postural training
+
+================================================================================
+DATE: September 12, 2024
+VISIT TYPE: Physical Therapy - Session 9/12
+
+SUBJECTIVE: Pain 5-6/10. Some days better than others.
+
+OBJECTIVE: Improved lumbar ROM to 75% normal. Still has positive SLR on left.
+
+TREATMENT: Continued core strengthening, nerve gliding exercises for sciatic symptoms
+
+================================================================================
+DATE: September 19, 2024
+VISIT TYPE: Physical Therapy - Session 12/12 (FINAL)
+
+SUBJECTIVE: Patient reports pain is now 5/10 at best, but still present daily. Concerned about persistent symptoms despite 6 weeks of consistent PT.
+
+OBJECTIVE: 
+- Lumbar ROM improved to 80% of normal
+- Persistent positive straight leg raise on left
+- Core strength improved but still symptomatic
+
+ASSESSMENT: Patient has completed 12 sessions of physical therapy over 6 weeks with only modest improvement. Persistent radicular symptoms suggest possible structural pathology.
+
+RECOMMENDATIONS: 
+- Patient has exhausted conservative PT approach
+- Recommend MRI lumbar spine for further evaluation
+- May need advanced intervention if structural lesion identified
+
+PT DISCHARGE SUMMARY: Patient compliant with all 12 sessions. Performed home exercise program regularly. Despite good effort and compliance, continues to have significant pain and radicular symptoms. Further diagnostic workup warranted.
+
+================================================================================
+DATE: October 15, 2024
+VISIT TYPE: Follow-up with Dr. Chen
+
+SUBJECTIVE: Patient completed 6 weeks of PT (12 sessions) as prescribed. Reports continued pain 5/10, left leg radiating pain persists. Also tried Ibuprofen 600mg TID for 8 weeks with minimal relief.
+
+OBJECTIVE:
+- Still tender over L4-L5
+- Positive SLR on left unchanged
+- ROM slightly improved but still limited
+
+ASSESSMENT: Chronic lumbar radiculopathy unresponsive to conservative care. Patient has completed:
+- 6 weeks of supervised physical therapy (12 sessions)
+- 8 week trial of NSAIDs (Ibuprofen 600mg TID)
+- Activity modification
+All with minimal improvement. Persistent radicular symptoms warrant advanced imaging.
+
+PLAN:
+Order MRI lumbar spine to evaluate for disc herniation or other structural pathology.
+Continue NSAIDs as needed for pain.
+Follow up after MRI results.
+
+MRI ordered on 10/15/2024, performed on 10/20/2024.

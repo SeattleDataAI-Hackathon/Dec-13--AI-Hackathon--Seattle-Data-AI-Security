@@ -1,0 +1,49 @@
+CLAIM DENIAL NOTICE
+
+Date: October 8, 2024
+Patient Name: Maria Rodriguez
+Patient ID: 874-92-3421
+Claim Number: CLM-2024-98331
+Service Date: September 22, 2024
+Provider: Advanced Orthopedic Specialists, Dr. Robert Kim
+
+CLAIM DETAILS:
+Procedure: Arthroscopic Rotator Cuff Repair, Right Shoulder
+CPT Code: 29827
+Diagnosis: M75.121 (Complete rotator cuff tear, right shoulder, not specified as traumatic)
+Billed Amount: $18,450.00
+
+DENIAL REASON: AUTHORIZATION REQUIRED - SERVICE NOT AUTHORIZED
+
+This claim has been denied because the procedure was performed without prior authorization from Anthem Blue Cross as required under your policy provisions.
+
+POLICY REQUIREMENT:
+Per Section 7(b) of your Summary Plan Description, all non-emergency surgical procedures require pre-authorization at least 5 business days prior to the scheduled surgery date. Pre-authorization must be obtained by the provider through our utilization management department.
+
+CLAIM REVIEW FINDINGS:
+• Authorization request submitted: September 20, 2024 at 4:47 PM
+• Surgery performed: September 22, 2024 at 8:00 AM  
+• Authorization decision issued: September 24, 2024 (APPROVED - after service already performed)
+
+Our system shows the authorization request was submitted only 1 business day before surgery, not the required 5 business days. While the procedure would have been medically appropriate and was subsequently approved, the policy requirement for timely pre-authorization was not met at the time of service.
+
+MEMBER LIABILITY: $18,450.00
+
+APPEAL RIGHTS:
+You may appeal this denial if you believe there were extenuating circumstances that prevented timely authorization, such as:
+- Emergency or urgent clinical situation requiring expedited surgery
+- Administrative error by provider's office
+- Delay in obtaining necessary diagnostic studies
+
+Appeals must be submitted within 180 days to:
+Anthem Blue Cross Appeals Department
+PO Box 105187
+Atlanta, GA 30348-5187
+
+Include any supporting documentation regarding the timing and urgency of your surgery.
+
+Questions? Call Member Services: 1-888-555-9876
+
+Sincerely,
+Utilization Management Department
+Anthem Blue Cross Blue Shield

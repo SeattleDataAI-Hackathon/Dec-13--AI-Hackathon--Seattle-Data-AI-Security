@@ -1,0 +1,38 @@
+CLAIM DENIAL NOTICE
+
+Date: November 15, 2024
+Patient Name: Sarah Johnson
+Patient ID: PAT-2024-78392
+Claim Number: CLM-2024-45678
+Service Date: October 20, 2024
+Provider: Dr. Michael Chen, Orthopedic Specialists
+
+CLAIM DETAILS:
+Procedure: MRI of Lumbar Spine
+CPT Code: 72148
+Billed Amount: $2,450.00
+
+DENIAL REASON: Medical Necessity Not Met
+
+Your claim has been denied because the requested MRI of the lumbar spine does not meet our medical necessity criteria. According to our clinical guidelines, conservative treatment must be adequately documented and completed before advanced imaging is approved.
+
+SPECIFIC REQUIREMENTS:
+- Minimum 6 weeks of physical therapy required
+- Documentation of non-steroidal anti-inflammatory drug (NSAID) trial
+- Evidence of persistent symptoms despite conservative care
+
+Our review found insufficient documentation of conservative treatment in the submitted materials. The medical records did not demonstrate completion of the required physical therapy sessions or adequate trial of conservative management.
+
+APPEAL DEADLINE: January 15, 2025
+
+To appeal this decision, please submit:
+1. Complete physical therapy records
+2. Documentation of NSAID trial
+3. Clinical notes showing persistent symptoms
+4. Updated letter of medical necessity from treating physician
+
+Contact our appeals department at 1-800-555-0100 for questions.
+
+Sincerely,
+Medical Review Department
+United Healthcare Partners

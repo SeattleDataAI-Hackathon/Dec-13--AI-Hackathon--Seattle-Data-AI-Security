@@ -1,0 +1,180 @@
+PATIENT: Maria Rodriguez
+MRN: 874-92-3421
+DOB: 03/15/1968 (Age 56)
+PROVIDER: Dr. Robert Kim, MD - Advanced Orthopedic Specialists
+
+================================================================================
+DATE: August 5, 2024
+VISIT TYPE: New Patient Consultation
+
+CHIEF COMPLAINT: Right shoulder pain x 6 months, worsening past 2 weeks
+
+HPI: 
+56 y/o right-hand dominant female with progressive right shoulder pain. Initially started 6 months ago after attempting to catch falling ladder at home. Pain gradually worsened. Limited ROM. Difficulty with overhead activities, can't reach top shelf or wash hair. Night pain preventing sleep. Has tried ibuprofen OTC with minimal relief.
+
+EXAM:
+Limited active ROM - forward flexion to 110 degrees (should be 180), abduction to 90 degrees
+Positive Neer impingement sign
+Positive Hawkins-Kennedy test  
+4/5 strength with external rotation
+Significant pain with resisted supraspinatus testing (empty can test)
+
+X-RAY (performed today): No fracture, mild AC joint arthritis, no significant glenohumeral arthritis
+
+ASSESSMENT: Likely rotator cuff tear vs severe tendinopathy
+
+PLAN:
+1. Order MRI right shoulder to evaluate rotator cuff
+2. Start PT referral - 6 weeks
+3. Consider cortisone injection if PT not helping
+4. Follow up after MRI
+
+================================================================================
+DATE: August 12, 2024
+MRI RIGHT SHOULDER - RADIOLOGY REPORT
+
+TECHNIQUE: MRI right shoulder without contrast
+
+FINDINGS:
+- ROTATOR CUFF: High-grade partial-thickness tear of the supraspinatus tendon involving approximately 80% of tendon thickness. Tear measures 1.8 cm in AP dimension. Retraction of approximately 1 cm.
+- Additional interstitial tearing of infraspinatus tendon
+- Moderate tendinosis of subscapularis, no full-thickness tear
+- LABRUM: Intact
+- BICEPS TENDON: Mild tendinosis, tendon intact
+- AC JOINT: Mild degenerative changes
+- BONE MARROW: No edema or acute abnormality
+
+IMPRESSION:
+1. High-grade partial-thickness rotator cuff tear, supraspinatus (80% thickness, 1.8cm)
+2. Interstitial tearing infraspinatus
+3. Given extent and retraction, likely will progress to complete tear - surgical candidate
+
+Electronically signed by: Dr. Jennifer Wu, MD - Radiology - 8/12/2024 2:33 PM
+
+================================================================================
+DATE: August 19, 2024  
+VISIT TYPE: Follow-up - MRI Results
+
+Reviewed MRI with patient. High-grade partial tear, very close to full thickness. With retraction and her symptoms, conservative treatment unlikely to provide lasting relief. At her age and activity level, tear will likely progress to complete tear.
+
+Discussed options:
+1. Continue PT/conservative care - but prognosis poor given tear size
+2. Surgical repair - arthroscopic rotator cuff repair
+
+Patient reports PT not helping much (attended 3 sessions so far). Pain worse, now can't sleep on right side at all. Taking ibuprofen 600mg TID. Still unable to work (she's a dental hygienist - needs overhead arm use).
+
+Patient very motivated for surgery. Unable to perform her job duties. Wants to proceed with surgical repair.
+
+PLAN: Schedule arthroscopic rotator cuff repair. Will coordinate with surgery scheduler.
+
+================================================================================
+DATE: September 18, 2024
+PRE-OPERATIVE VISIT
+
+Surgery scheduled for 9/22/2024 at 8:00 AM at Northside Surgical Center
+
+Pre-op labs: CBC, BMP, PT/INR - all WNL
+EKG: Normal sinus rhythm
+CXR: Clear
+
+Reviewed risks/benefits of surgery. Patient understands. Consent signed.
+
+NPO after midnight 9/21.
+
+================================================================================  
+INTERNAL OFFICE NOTE - SURGERY SCHEDULER
+Date: 9/18/2024 3:15 PM
+
+Called insurance re: authorization for Maria Rodriguez surgery on 9/22.
+
+Anthem rep said need to submit auth request through online portal with MRI report and clinical notes. Said they need 5 business days for review but will try to expedite.
+
+Submitted auth request 9/18 at 4:30 PM with:
+- MRI report
+- Dr Kim's notes from 8/5 and 8/19
+- Surgery request for CPT 29827
+
+Confirmation #: AUTH-REQ-887234
+
+Rep said someone will call back by 9/20.
+
+================================================================================
+DATE: September 20, 2024 - 4:47 PM
+URGENT CALL FROM PATIENT
+
+Patient called in severe distress. Fell at home this morning reaching for coffee mug on shelf. Immediate sharp tearing sensation in right shoulder followed by complete loss of function. Cannot lift arm at all now. Excruciating pain 9/10.
+
+Advised patient to go to ER for evaluation.
+
+================================================================================  
+DATE: September 20, 2024 - 9:22 PM
+EMERGENCY DEPARTMENT VISIT - Northside Medical Center
+Attending: Dr. Sarah Martinez, MD
+
+CHIEF COMPLAINT: Acute worsening right shoulder pain and loss of function after fall
+
+HPI: 56F with known high-grade partial RC tear scheduled for surgery on 9/22. Fell at home this AM reaching overhead. Immediate tearing sensation. Complete inability to actively elevate arm. Pain 9/10.
+
+EXAM:
+Complete loss of active shoulder abduction and forward flexion
+Arm held at side
+Severe pain with any attempted motion
+Positive drop arm sign
+Neurovascularly intact distally
+
+X-RAY: No acute fracture or dislocation. Proximal migration of humeral head suggesting complete rotator cuff tear.
+
+ASSESSMENT: Acute complete rotator cuff tear (extension of known partial tear)
+
+PLAN: 
+- Pain control: Toradol 30mg IM given, norco 10/325 prescribed  
+- Sling for comfort
+- Contacted Dr. Kim on call - will keep surgery date 9/22/24 as scheduled given acute complete tear
+- Patient instructed this is now urgent surgical indication
+
+D/C home with pain meds, sling. Surgery in 2 days as previously scheduled.
+
+ED Note electronically signed: Dr. Sarah Martinez, 9/20/2024 10:47 PM
+
+================================================================================
+DATE: September 20, 2024 - 10:52 PM
+DR. KIM ON-CALL NOTE
+
+Spoke with ED attending Dr. Martinez re: Maria Rodriguez. Known high-grade partial RC tear, now acute complete tear after mechanical fall today. Was already scheduled for surgery 9/22.
+
+Given acute complete tear with loss of function, this is now urgent indication. Keeping surgery date as scheduled - waiting longer risks further retraction and worse surgical outcome.
+
+Called surgery center - confirmed 9/22 8AM still available.
+
+Called patient - confirmed she understands urgency and will proceed with surgery as scheduled.
+
+Note: Authorization was submitted 9/18 but not yet received approval. Given urgent clinical change (acute complete tear), proceeding with surgery. Will have office submit updated clinical documentation to insurance first thing Monday morning (9/23 - day after surgery).
+
+================================================================================
+DATE: September 23, 2024 - 8:15 AM
+OFFICE NOTE - Authorization Follow-up
+
+Received approval from Anthem this morning for surgery - approved for CPT 29827. Approval date 9/24/2024.
+
+Called insurance to explain surgery was performed 9/22 due to urgent clinical deterioration (acute complete tear on 9/20). 
+
+Rep said claim may deny for lack of pre-auth even though procedure approved. Recommended appeal with ER records showing urgent indication.
+
+Documented in chart for billing department.
+
+================================================================================
+OPERATIVE REPORT
+Date of Surgery: September 22, 2024
+Surgeon: Dr. Robert Kim, MD
+
+PRE-OP DIAGNOSIS: Complete rotator cuff tear, right shoulder (acute on chronic)
+
+POST-OP DIAGNOSIS: Complete rotator cuff tear, right shoulder, supraspinatus and infraspinatus (2.5 cm x 2 cm)
+
+PROCEDURE: Arthroscopic rotator cuff repair, right shoulder with subacromial decompression
+
+FINDINGS: Complete full-thickness tear of supraspinatus and infraspinatus tendons. Tear measured approximately 2.5 cm x 2 cm with moderate retraction. Appears acute extension of chronic partial tear. Tendon edges showed both acute tearing and chronic degenerative changes.
+
+Successful repair performed with 3 double-loaded suture anchors. Good tissue quality. Excellent repair tension. Tendon to bone contact restored.
+
+Patient tolerated procedure well. No complications. To recovery in stable condition.

@@ -1,0 +1,39 @@
+CLAIM DENIAL NOTICE
+
+Date: November 28, 2024
+Patient Name: James Mitchell
+Patient ID: PAT-2024-91234
+Claim Number: CLM-2024-56789
+Service Date: November 1, 2024
+Provider: Dr. Lisa Anderson, Family Medicine Associates
+
+CLAIM DETAILS:
+Procedure: Annual Preventive Examination
+CPT Code: 99385 (Preventive visit, 18-39 years)
+ICD-10 Code: R51 (Headache)
+Billed Amount: $285.00
+
+DENIAL REASON: Coding Error - Preventive Service Billed as Diagnostic
+
+Your claim has been processed with patient responsibility applied because the diagnosis code submitted does not align with preventive care guidelines.
+
+ISSUE IDENTIFIED:
+The claim was submitted with CPT code 99385 (preventive medicine service for patient age 18-39) but was paired with ICD-10 code R51 (Headache), which is a diagnostic code indicating treatment of a medical problem.
+
+Under the Affordable Care Act, preventive services must be coded with appropriate preventive diagnosis codes (typically Z codes such as Z00.00 for general adult medical examination without abnormal findings).
+
+RESULT:
+Because the diagnosis code indicates diagnostic/treatment services rather than preventive screening, the claim does not qualify for 100% coverage under preventive care benefits. Patient copayment and deductible apply.
+
+AMOUNT DUE FROM PATIENT: $285.00
+
+CORRECTIVE ACTION:
+If this was intended as a preventive visit, please resubmit the claim with the appropriate ICD-10 Z code (e.g., Z00.00). If the patient had complaints addressed during the visit, the claim may need to be split or modified with appropriate modifiers to separate preventive and diagnostic components.
+
+Appeal deadline: December 28, 2024
+
+Contact our billing department at 1-800-555-0200 for coding assistance.
+
+Sincerely,
+Claims Processing Department  
+BlueCross BlueShield

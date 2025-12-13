@@ -1,0 +1,136 @@
+METROPOLITAN GASTROENTEROLOGY ASSOCIATES
+Procedure Report
+
+PATIENT: David Chen
+MRN: 445821  
+DOB: 06/22/1959 (Age 65)
+DATE OF SERVICE: October 18, 2024
+PHYSICIAN: Dr. Patricia Stevens, MD
+
+PROCEDURE: Colonoscopy with biopsy
+
+INDICATION: 
+65-year-old male presenting for routine screening colonoscopy. Patient has no prior colonoscopy. No family history of colon cancer. No current GI symptoms. Average risk screening.
+
+INFORMED CONSENT: Obtained. Risks, benefits, and alternatives discussed including bleeding, perforation, sedation risks, and possibility of incomplete exam. Patient verbalized understanding and agreed to proceed.
+
+MEDICATIONS:
+Versed 3 mg IV
+Fentanyl 100 mcg IV
+
+PROCEDURE DETAILS:
+The colonoscope was inserted into the rectum and advanced to the cecum without difficulty. Cecal intubation confirmed by visualization of ileocecal valve and appendiceal orifice. Withdrawal time: 9 minutes.
+
+FINDINGS:
+
+CECUM/ASCENDING COLON: Normal appearing mucosa
+
+TRANSVERSE COLON: 
+- 4mm sessile polyp at hepatic flexure - BIOPSIED (pathology specimen #1)
+- Normal appearing mucosa otherwise
+
+DESCENDING COLON: Normal appearing mucosa
+
+SIGMOID COLON:
+- 6mm pedunculated polyp at 25cm - BIOPSIED (pathology specimen #2)  
+- 3mm sessile polyp at 30cm - BIOPSIED (pathology specimen #3)
+
+RECTUM: Internal hemorrhoids, non-bleeding. No masses.
+
+PROCEDURE SUMMARY:
+Complete colonoscopy to cecum performed. Three polyps identified and biopsied (unable to completely remove due to small biopsy forceps - patient will need return for polypectomy). Samples sent to pathology for histologic evaluation. Otherwise normal examination.
+
+SPECIMENS COLLECTED:
+1. Hepatic flexure polyp - biopsy
+2. Sigmoid polyp 25cm - biopsy  
+3. Sigmoid polyp 30cm - biopsy
+
+ASSESSMENT:
+1. Three colonic polyps - biopsied, awaiting pathology
+2. Internal hemorrhoids
+
+PLAN:
+1. Await pathology results
+2. Schedule return colonoscopy for complete polypectomy of all three polyps once pathology confirms benign vs adenomatous nature
+3. If adenomatous: surveillance colonoscopy per ASGE guidelines
+4. Patient tolerated procedure well, discharged to recovery room in stable condition
+
+COMPLICATIONS: None
+
+Dr. Patricia Stevens, MD
+Electronically signed: 10/18/2024 11:42 AM
+
+================================================================================
+
+PATHOLOGY REPORT
+Metropolitan Hospital Laboratory Services
+Accession Number: P24-18994
+Date Collected: 10/18/2024
+Date Reported: 10/21/2024
+
+PATIENT: Chen, David
+DOB: 06/22/1959
+MRN: 445821
+
+CLINICAL HISTORY: Screening colonoscopy, polyps found
+
+SPECIMEN(S):
+A. Colon, hepatic flexure, biopsy
+B. Colon, sigmoid (25cm), biopsy  
+C. Colon, sigmoid (30cm), biopsy
+
+GROSS DESCRIPTION:
+A: Received in formalin labeled "hepatic flexure" is a 3mm fragment of tan tissue
+B: Received in formalin labeled "sigmoid 25cm" is a 4mm fragment of tan tissue
+C: Received in formalin labeled "sigmoid 30cm" is a 2mm fragment of tan tissue
+
+MICROSCOPIC DIAGNOSIS:
+A. Colon, hepatic flexure, biopsy: TUBULAR ADENOMA
+B. Colon, sigmoid (25cm), biopsy: TUBULAR ADENOMA with low-grade dysplasia
+C. Colon, sigmoid (30cm), biopsy: HYPERPLASTIC POLYP
+
+COMMENT: Specimen A and B show adenomatous changes. Complete polypectomy recommended with surveillance per current guidelines.
+
+Electronically signed by:
+Dr. Mark Thompson, MD - Pathology
+10/21/2024 3:17 PM
+
+================================================================================
+
+BILLING WORKSHEET - INTERNAL
+Patient: David Chen
+DOS: 10/18/2024
+
+Procedure performed: Colonoscopy with biopsies x 3
+
+Coder notes: 
+- Screening colonoscopy converted to diagnostic due to findings
+- Multiple biopsies taken (3 separate polyps)
+- Used cold biopsy forceps (no polypectomy performed - will need to return)
+
+Codes submitted to insurance:
+45378 - Diagnostic colonoscopy  
+45380 - Colonoscopy with biopsy, single or multiple
+
+Diagnosis: Z12.11 (Encounter for screening for malignant neoplasm of colon)
+
+Claim submitted: 10/19/2024
+
+================================================================================
+
+OFFICE NOTE - BILLING DEPARTMENT
+Date: 11/18/2024
+
+Received EOB for David Chen colonoscopy. Insurance (Aetna) denied code 45380 as "bundled" into 45378. Says we should only bill one code, not both.
+
+This doesn't make sense - we performed diagnostic colonoscopy (45378) AND biopsies (45380). These are different levels of service. The diagnostic colonoscopy is the base procedure, and the biopsy is an additional service that required extra time, equipment (biopsy forceps), and pathology costs.
+
+Per CPT guidelines:
+- 45378 is for diagnostic colonoscopy without biopsy/intervention
+- 45380 is for colonoscopy WITH biopsy
+
+We did BOTH - the diagnostic portion (examining the colon) AND the therapeutic portion (taking biopsies). This should be separately billable.
+
+Recommend appeal - this is not a bundling issue, this is appropriate coding for services rendered.
+
+Drafted appeal letter for Dr. Stevens' review.
