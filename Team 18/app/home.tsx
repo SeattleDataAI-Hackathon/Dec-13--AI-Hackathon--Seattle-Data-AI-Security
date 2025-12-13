@@ -30,7 +30,6 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { appConfig } from '@/config/app';
 import { ClientLayout } from '@/components/homepage/client-layout';
-import { WorkflowAvatarPipeline } from '@/components/homepage/workflow';
 
 export default function Home() {
   return (
@@ -508,7 +507,6 @@ export default function Home() {
               See how messages flow through our AI-powered system with MCP tool integration.
             </p>
           </div>
-          <WorkflowAvatarPipeline isVisible={true} />
         </section>
 
         {/* Roadmap */}

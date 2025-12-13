@@ -223,15 +223,15 @@ export function ChatSidebar() {
       collapsible="icon"
     >
       <SidebarHeader className="p-4 border-b border-border/40">
-        <div className="flex items-center justify-start">
+        <Link href="/" className="flex items-center justify-start">
           <div className={`flex items-center gap-2 ${isCollapsed ? 'justify-center w-full' : ''}`}>
             <div
-              className={`relative rounded-full bg-primary/70 flex items-center justify-center ${
-                isCollapsed ? 'size-5 p-3' : 'size-6'
+              className={`flex items-center justify-center rounded-md bg-primary text-primary-foreground ${
+                isCollapsed ? 'h-8 w-8' : 'h-8 w-8'
               }`}
             >
               <Sparkles
-                className={`${isCollapsed ? 'h-4 w-4' : 'h-5 w-5'} text-primary-foreground`}
+                className="h-5 w-5"
               />
             </div>
             {!isCollapsed && (
@@ -240,7 +240,7 @@ export function ChatSidebar() {
               </div>
             )}
           </div>
-        </div>
+        </Link>
       </SidebarHeader>
 
       <SidebarContent className="flex flex-col h-[calc(100vh-8rem)]">
@@ -256,7 +256,7 @@ export function ChatSidebar() {
           <SidebarGroupContent
             className={cn('overflow-y-auto pt-1', isCollapsed ? 'overflow-x-hidden' : '')}
           >
-            <SidebarMenu>
+            <SidebarMenu className="space-y-1">
               {isLoading ? (
                 renderChatSkeletons()
               ) : chats.length === 0 ? (

@@ -1,6 +1,6 @@
 'use client';
 
-import { Sparkles, Menu, X } from 'lucide-react';
+import { Sparkles, Menu, X, ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useState } from 'react';
 import Link from 'next/link';
@@ -66,11 +66,16 @@ export function Header({ onDemoClick }: HeaderProps) {
 
         {/* Desktop CTA */}
         <div className="hidden md:flex items-center gap-2">
-          <Button variant="outline" size="sm" asChild>
-            <Link href="/chat">Start Chatting</Link>
+          <Button asChild size="sm">
+            <Link href="/onboarding">
+              <Sparkles className="h-4 w-4 mr-2" /> Get Started
+            </Link>
           </Button>
-          <Button size="sm" asChild>
-            <a href="#contact">Get Started</a>
+              
+          <Button asChild variant="outline" size="sm">
+            <Link href="/chat">
+              Start Chatting
+            </Link>
           </Button>
         </div>
 
@@ -131,11 +136,15 @@ export function Header({ onDemoClick }: HeaderProps) {
               Team
             </a>
             <div className="flex flex-col gap-2 pt-4 border-t">
-              <Button variant="outline" size="sm" asChild onClick={() => setIsMenuOpen(false)}>
-                <Link href="/chat">Start Chatting</Link>
+              <Button size="sm" asChild onClick={() => setIsMenuOpen(false)}>
+                <Link href="/onboarding">
+                  <Sparkles className="h-4 w-4 mr-2" /> Get Started Free
+                </Link>
               </Button>
-              <Button size="sm" asChild>
-                <a href="#contact">Get Started</a>
+              <Button variant="outline" size="sm" asChild onClick={() => setIsMenuOpen(false)}>
+                <Link href="/chat">
+                  Start Chatting <ArrowRight className="h-4 w-4 ml-2" />
+                </Link>
               </Button>
             </div>
           </nav>

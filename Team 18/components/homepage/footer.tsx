@@ -1,4 +1,4 @@
-import { Coffee, Github, Twitter, Linkedin, Mail } from 'lucide-react';
+import { Sparkles, Github, Twitter, Linkedin, Mail } from 'lucide-react';
 import Link from 'next/link';
 import { appConfig } from '@/config/app';
 
@@ -11,7 +11,7 @@ export function Footer() {
           <div className="md:col-span-1">
             <div className="flex items-center gap-2 mb-4">
               <div className="flex h-8 w-8 items-center justify-center rounded-md bg-primary text-primary-foreground">
-                <Coffee className="h-5 w-5" />
+                <Sparkles className="h-5 w-5" />
               </div>
               <span className="text-xl font-bold">{appConfig.company.name}</span>
             </div>
