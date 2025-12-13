@@ -19,3 +19,13 @@ Have an AI agent help you schedule your next visit
 
 ### Web App URL
 - https://v0-tap-care-assistant.vercel.app/
+
+### Tech Used
+
+- https://v0.app v0 by Vercel, for UI Vibe coding and Protype
+- https://vapi.ai/ Voice AI agents
+- https://google.github.io/adk-docs/ Google Agent Development Kit
+
+### Preview
+
+![Alt Text](./WebDemoSimple.gif)
