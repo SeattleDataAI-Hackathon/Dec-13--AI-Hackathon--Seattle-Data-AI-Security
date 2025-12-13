@@ -4,24 +4,6 @@ import './App.css';
 
 const API_BASE = 'http://localhost:5000';
 
-interface Resource {
-  title: string;
-  type: string;
-  description: string;
-  creator?: string;
-  isPremium?: boolean;
-  url?: string;
-}
-
-interface RoadmapStep {
-  id?: number;
-  title: string;
-  description: string;
-  estimatedTime: string;
-  keyTopics?: string[];
-  resources?: Resource[];
-}
-
 interface QuizQuestion {
   id: number;
   question: string;
@@ -42,7 +24,7 @@ interface Roadmap {
   topic: string;
   timeline: string;
   assessmentScore: number;
-  steps: RoadmapStep[];
+  steps: any[];
   summary: string;
   focusAreas: string[];
 }
@@ -59,42 +41,6 @@ export default function App() {
   const [answers, setAnswers] = useState<Record<number, number | null>>({});
   const [result, setResult] = useState<QuizResult | null>(null);
   const [roadmap, setRoadmap] = useState<Roadmap | null>(null);
-
-  // Function to parse and render code blocks
-  const renderQuestionText = (text: string) => {
-    const codeBlockRegex = /```(bash|sh|shell|javascript|python|jsx|typescript)?\n([\s\S]*?)```/g;
-    const parts: (string | JSX.Element)[] = [];
-    let lastIndex = 0;
-    let blockIndex = 0;
-
-    let match;
-    while ((match = codeBlockRegex.exec(text)) !== null) {
-      // Add text before code block
-      if (match.index > lastIndex) {
-        parts.push(text.substring(lastIndex, match.index));
-      }
-
-      const language = match[1] || 'bash';
-      const code = match[2];
-
-      // Add code block
-      parts.push(
-        <pre key={`code-${blockIndex}`} className="code-block">
-          <code className={`language-${language}`}>{code.trim()}</code>
-        </pre>
-      );
-
-      lastIndex = match.index + match[0].length;
-      blockIndex++;
-    }
-
-    // Add remaining text
-    if (lastIndex < text.length) {
-      parts.push(text.substring(lastIndex));
-    }
-
-    return parts.length > 0 ? parts : text;
-  };
 
   const startQuiz = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -164,11 +110,11 @@ export default function App() {
       
       if (!res.ok) throw new Error(`Server error: ${res.status}`);
       
-      const assessmentResult = await res.json();
-      setResult(assessmentResult);
+      const data = await res.json();
+      setResult(data);
       setPage('review');
     } catch (err) {
-      setError(err instanceof Error ? err.message : 'Failed to submit quiz');
+      setError(err instanceof Error ? err.message : 'Failed to assess quiz');
       console.error('Error:', err);
     } finally {
       setLoading(false);
@@ -196,8 +142,8 @@ export default function App() {
       
       if (!res.ok) throw new Error(`Server error: ${res.status}`);
       
-      const roadmapData = await res.json();
-      setRoadmap(roadmapData);
+      const data = await res.json();
+      setRoadmap(data);
       setPage('roadmap');
     } catch (err) {
       setError(err instanceof Error ? err.message : 'Failed to generate roadmap');
@@ -232,7 +178,7 @@ export default function App() {
     y += summaryLines.length * 4 + 8;
     
     doc.setFontSize(11);
-    doc.text('Learning Path:', 15, y);
+    doc.text('Learning Steps:', 15, y);
     y += 8;
     
     roadmap.steps.forEach((step, idx) => {
@@ -247,23 +193,6 @@ export default function App() {
       const descLines = doc.splitTextToSize(step.description, 180);
       doc.text(descLines, 15, y);
       y += descLines.length * 4 + 4;
-      
-      if (step.resources && step.resources.length > 0) {
-        doc.setFontSize(9);
-        doc.text('Resources:', 15, y);
-        y += 4;
-        doc.setFontSize(8);
-        step.resources.forEach(resource => {
-          if (y > 270) {
-            doc.addPage();
-            y = 15;
-          }
-          const resourceText = `• ${resource.title} (${resource.type})${resource.isPremium ? ' [Premium]' : ''}`;
-          doc.text(resourceText, 18, y);
-          y += 4;
-        });
-        y += 2;
-      }
     });
     
     doc.save(`${roadmap.topic}-roadmap.pdf`);
@@ -287,7 +216,7 @@ export default function App() {
       <div className="app">
         <header className="header">
           <h1>🎓 LearnMap.ai</h1>
-          <p>AI-Powered Personalized Learning Roadmaps</p>
+          <p>AI-Powered Learning Roadmap</p>
         </header>
         <main className="main-content">
           <section className="input-section">
@@ -296,16 +225,15 @@ export default function App() {
                 <label>What do you want to learn?</label>
                 <input
                   type="text"
-                  placeholder="e.g., React, Python, Machine Learning, Data Science..."
+                  placeholder="e.g., React, Python, Machine Learning..."
                   value={topic}
                   onChange={e => setTopic(e.target.value)}
-                  autoFocus
                 />
               </div>
               <div className="form-group">
-                <label>How much time do you have?</label>
+                <label>How long do you have?</label>
                 <select value={timeline} onChange={e => setTimeline(e.target.value)}>
-                  <option value="">Select your timeline</option>
+                  <option value="">Select timeline</option>
                   <option value="1 week">1 Week</option>
                   <option value="2 weeks">2 Weeks</option>
                   <option value="1 month">1 Month</option>
@@ -333,13 +261,11 @@ export default function App() {
       <div className="app">
         <header className="header">
           <h1>🎓 LearnMap.ai</h1>
-          <div className="quiz-progress">Question {currentIdx + 1} of {quiz.length}</div>
+          <div className="quiz-progress">Question {currentIdx + 1} / {quiz.length}</div>
         </header>
         <main className="main-content">
           <section className="quiz-section">
-            <div className="question-content">
-              {renderQuestionText(q.question)}
-            </div>
+            <h2>{q.question}</h2>
             <div className="options">
               {q.options.map((opt, i) => (
                 <button
@@ -347,23 +273,23 @@ export default function App() {
                   className={`option ${selected === i ? 'selected' : ''}`}
                   onClick={() => selectAnswer(i)}
                 >
-                  {renderQuestionText(opt)}
+                  {opt}
                 </button>
               ))}
             </div>
             <div className="quiz-controls">
-              <button onClick={prevQuestion} disabled={currentIdx === 0} className="nav-btn prev-btn">
+              <button onClick={prevQuestion} disabled={currentIdx === 0} className="nav-btn">
                 ← Previous
               </button>
               <button onClick={skipQuestion} className="skip-btn">
                 ❓ Skip
               </button>
               {currentIdx === quiz.length - 1 ? (
-                <button onClick={submitQuiz} disabled={loading} className="submit-btn final-btn">
-                  {loading ? 'Submitting...' : 'Submit Quiz'}
+                <button onClick={submitQuiz} disabled={loading} className="submit-btn">
+                  {loading ? 'Submitting...' : 'Submit'}
                 </button>
               ) : (
-                <button onClick={nextQuestion} className="nav-btn next-btn">
+                <button onClick={nextQuestion} className="nav-btn">
                   Next →
                 </button>
               )}
@@ -380,7 +306,7 @@ export default function App() {
     return (
       <div className="app">
         <header className="header">
-          <h1>📊 Your Results</h1>
+          <h1>📊 Quiz Results</h1>
         </header>
         <main className="main-content">
           <section className="review-section">
@@ -390,7 +316,6 @@ export default function App() {
               </div>
               <div className="score-details">
                 <h2>Score: {result.score}/{result.totalQuestions}</h2>
-                <p>{result.percentage >= 80 ? 'Excellent work!' : result.percentage >= 60 ? 'Good effort!' : 'Room for improvement'}</p>
               </div>
             </div>
 
@@ -398,7 +323,7 @@ export default function App() {
               <div className="performance-card">
                 <h3>✨ Strong Areas</h3>
                 {result.strongAreas.map((area, i) => (
-                  <span key={i} className="area-badge success">{area}</span>
+                  <span key={i} className="area-badge">{area}</span>
                 ))}
               </div>
             )}
@@ -407,38 +332,32 @@ export default function App() {
               <div className="performance-card">
                 <h3>📚 Areas to Improve</h3>
                 {result.weakAreas.map((area, i) => (
-                  <span key={i} className="area-badge warning">{area}</span>
+                  <span key={i} className="area-badge">{area}</span>
                 ))}
               </div>
             )}
 
             <div className="questions-review">
-              <h3>📋 Review Your Answers</h3>
+              <h3>Review Answers</h3>
               {quiz.map((q, idx) => {
                 const userAnswer = answers[idx];
                 const isCorrect = userAnswer === q.correctAnswer;
                 
                 return (
-                  <div key={idx} className={`review-card ${isCorrect ? 'correct' : userAnswer === null ? 'skipped' : 'incorrect'}`}>
+                  <div key={idx} className={`review-card ${isCorrect ? 'correct' : 'incorrect'}`}>
                     <p className="question-number">Q{idx + 1}: {q.question}</p>
-                    <p className="answer-text">
-                      Your answer: <strong>{userAnswer === null ? '(Skipped)' : q.options[userAnswer]}</strong>
-                    </p>
-                    {!isCorrect && userAnswer !== null && (
-                      <p className="correct-answer">Correct answer: <strong>{q.options[q.correctAnswer || 0]}</strong></p>
-                    )}
-                    <div className={isCorrect ? 'answer-indicator correct' : userAnswer === null ? 'answer-indicator skipped' : 'answer-indicator incorrect'}>
-                      {isCorrect ? '✓ Correct' : userAnswer === null ? '⊘ Skipped' : '✗ Incorrect'}
-                    </div>
+                    <p className="answer-text">Your answer: {userAnswer === null ? '(Skipped)' : q.options[userAnswer]}</p>
+                    {!isCorrect && <p className="correct-answer">Correct: {q.options[q.correctAnswer || 0]}</p>}
+                    <p className={isCorrect ? 'status-correct' : 'status-wrong'}>{isCorrect ? '✓ Correct' : '✗ Wrong'}</p>
                   </div>
                 );
               })}
             </div>
 
             <button onClick={generateRoadmap} disabled={loading} className="submit-btn">
-              {loading ? 'Generating...' : 'Generate Personalized Roadmap'}
+              Generate Roadmap
             </button>
-            <button onClick={restart} className="nav-btn">
+            <button onClick={restart} className="secondary-btn">
               Start Over
             </button>
             {error && <div className="error-message">{error}</div>}
@@ -453,85 +372,31 @@ export default function App() {
     return (
       <div className="app">
         <header className="header">
-          <h1>🗺️ Your Learning Roadmap</h1>
-          <p>{roadmap.topic} • {roadmap.timeline}</p>
+          <h1>🗺️ Your Roadmap</h1>
+          <p>{roadmap.topic}</p>
         </header>
         <main className="main-content">
           <section className="roadmap-section">
             <div className="roadmap-header">
               <h2>{roadmap.topic}</h2>
-              <p>📅 Timeline: {roadmap.timeline} | 📊 Assessment Score: {roadmap.assessmentScore}%</p>
+              <p>�� {roadmap.timeline}</p>
             </div>
-
-            <div className="roadmap-summary">
-              {roadmap.summary}
-            </div>
-
-            {roadmap.focusAreas && roadmap.focusAreas.length > 0 && (
-              <div className="focus-areas">
-                <h3>🎯 Key Focus Areas</h3>
-                <div className="focus-grid">
-                  {roadmap.focusAreas.map((area, i) => (
-                    <div key={i} className="focus-item">{area}</div>
-                  ))}
-                </div>
-              </div>
-            )}
-
-            <div className="roadmap-steps">
+            <p className="summary">{roadmap.summary}</p>
+            <div className="steps">
               {roadmap.steps.map((step, i) => (
-                <div key={i} className="step-card">
-                  <div className="step-number">{i + 1}</div>
-                  <div className="step-content">
-                    <h3>{step.title}</h3>
-                    <p>{step.description}</p>
-                    
-                    {step.keyTopics && step.keyTopics.length > 0 && (
-                      <div className="key-topics">
-                        <strong>Key Topics:</strong> {step.keyTopics.join(', ')}
-                      </div>
-                    )}
-
-                    <div className="time-badge">⏱️ {step.estimatedTime}</div>
-
-                    {step.resources && step.resources.length > 0 && (
-                      <div className="resources">
-                        <h4>📚 Learning Resources</h4>
-                        <div className="resources-grid">
-                          {step.resources.map((resource, idx) => (
-                            <div key={idx} className={`resource-card ${resource.isPremium ? 'premium' : 'free'}`}>
-                              <div className="resource-header">
-                                <h5>{resource.title}</h5>
-                                {resource.isPremium && <span className="premium-badge">💎 Premium</span>}
-                              </div>
-                              <p className="resource-type">📌 {resource.type}</p>
-                              {resource.creator && <p className="resource-creator">by {resource.creator}</p>}
-                              <p className="resource-description">{resource.description}</p>
-                              {resource.url && (
-                                <a href={resource.url} target="_blank" rel="noopener noreferrer" className="resource-link">
-                                  View Resource →
-                                </a>
-                              )}
-                            </div>
-                          ))}
-                        </div>
-                      </div>
-                    )}
-                  </div>
+                <div key={i} className="step">
+                  <h3>Step {i + 1}: {step.title}</h3>
+                  <p>{step.description}</p>
+                  {step.estimatedTime && <p>⏱️ {step.estimatedTime}</p>}
                 </div>
               ))}
             </div>
-
-            <div className="roadmap-actions">
-              <button onClick={downloadPDF} className="submit-btn">
-                📥 Download Roadmap as PDF
-              </button>
-              <button onClick={restart} className="nav-btn">
-                🔄 Start New Assessment
-              </button>
-            </div>
-            
-            {error && <div className="error-message">{error}</div>}
+            <button onClick={downloadPDF} className="submit-btn">
+              📥 Download PDF
+            </button>
+            <button onClick={restart} className="secondary-btn">
+              New Assessment
+            </button>
           </section>
         </main>
       </div>

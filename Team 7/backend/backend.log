@@ -1,5 +1,0 @@
-nohup: ignoring input
-[dotenv@17.2.3] injecting env (4) from .env -- tip: ⚙️  enable debug logging with { debug: true }
-[dotenv@17.2.3] injecting env (0) from .env -- tip: ✅ audit secrets and track compliance: https://dotenvx.com/ops
-🚀 LearnMap.ai Backend running on port 5000
-📊 Health check: http://localhost:5000/health

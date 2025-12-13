@@ -10,21 +10,50 @@ const generateQuiz = async (topic) => {
     return mockGenerateQuiz(topic);
   }
 
-  const prompt = `Generate a 5-question quiz to assess someone's knowledge of "${topic}". 
-  
-  Return ONLY a valid JSON object with this exact structure:
-  {
-    "questions": [
-      {
-        "id": 1,
-        "question": "Question text here?",
-        "options": ["Option A", "Option B", "Option C", "Option D"],
-        "type": "multiple-choice"
-      }
-    ]
-  }
-  
-  Make sure the questions range from basic to intermediate level.`;
+  const prompt = `You are an expert educator. Generate a comprehensive 10-question quiz to assess someone's practical knowledge of "${topic}". 
+
+IMPORTANT - Keep questions SIMPLE and BEGINNER-FRIENDLY:
+1. Focus on fundamental concepts
+2. Use everyday language, avoid jargon
+3. Make questions about common, practical use cases
+4. Include at least 3-4 questions for absolute beginners
+5. Progress slowly from easy (Q1-Q3) to moderate (Q4-Q10)
+6. Avoid trick questions or complex scenarios
+
+The quiz should:
+1. Test real-world understanding and application, not just definitions
+2. Progress from foundational to intermediate difficulty (but keep it simple!)
+3. Cover key concepts, practical skills, and common challenges
+4. Include realistic scenarios where applicable
+5. Ensure exactly ONE correct answer per question
+
+For each question:
+- Make it specific and relevant to ${topic}
+- Include 4 distinct options with only 1 clear correct answer
+- Avoid trick questions or ambiguous wording
+- Use simple language that beginners can understand
+- Focus on competency assessment at beginner to intermediate level
+
+Examples of GOOD simple questions:
+- "What does [basic concept] do?" (not "What are the edge cases of...")
+- "Which is true about [common use]?" (not "In what obscure scenario...")
+- "How do you [basic task]?" (not "What's the performance implication of...")
+
+Return ONLY a valid JSON object with this exact structure:
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Clear, simple, beginner-friendly question about ${topic}",
+      "options": ["Option A", "Option B", "Option C", "Option D"],
+      "type": "multiple-choice",
+      "correctAnswer": 0
+    },
+    ...
+  ]
+}
+
+CRITICAL: Ensure correctAnswer is 0-3 and matches one of the options exactly.`;
 
   try {
     const response = await invokeGoogleModel(prompt);
@@ -47,15 +76,20 @@ const assessKnowledge = async (topic, answers, questions) => {
   // Use mock data for testing
   if (USE_MOCK_DATA) {
     console.log('[MOCK MODE] Assessing knowledge for:', topic);
-    return mockAssessKnowledge();
+    return mockAssessKnowledge(answers, questions);
   }
 
   const questionsText = questions
-    .map((q, idx) => `Q${idx + 1}: ${q.question}\nCorrect: ${q.options[0]}`)
+    .map((q, idx) => `Q${idx + 1}: ${q.question}\nCorrect answer: ${q.options[q.correctAnswer] || q.options[0]}`)
     .join('\n');
 
   const answersText = Object.entries(answers)
-    .map(([idx, optIdx]) => `Q${parseInt(idx) + 1}: ${questions[idx].options[optIdx]}`)
+    .map(([idx, optIdx]) => {
+      if (optIdx === null || optIdx === undefined) {
+        return `Q${parseInt(idx) + 1}: (Not answered - "I don't know")`;
+      }
+      return `Q${parseInt(idx) + 1}: ${questions[idx].options[optIdx]}`;
+    })
     .join('\n');
 
   const prompt = `You are an expert knowledge assessor. Evaluate this person's knowledge of "${topic}".
@@ -102,45 +136,58 @@ const generateRoadmap = async (topic, timeline, assessmentScore, weakAreas, stro
     return mockGenerateRoadmap(topic, timeline, assessmentScore, weakAreas);
   }
 
-  const prompt = `Create a personalized learning roadmap for someone learning "${topic}".
+  const prompt = `You are an expert learning path designer. Create a comprehensive, personalized learning roadmap for someone learning "${topic}".
 
 Context:
 - Timeline: ${timeline}
-- Current assessment score: ${assessmentScore}%
-- Weak areas: ${weakAreas.join(', ')}
-- Strong areas: ${strongAreas.join(', ')}
+- Assessment Score: ${assessmentScore}%
+- Weak Areas to Focus On: ${weakAreas.join(', ')}
+- Strong Areas to Build On: ${strongAreas.join(', ')}
 
-Generate a detailed roadmap with 5-7 learning steps. Prioritize the weak areas. For each step, include 3-4 real, specific resources that actually exist.
+Create 5-7 detailed learning steps that:
+1. Start with fundamentals if score is low (<60%)
+2. Prioritize weak areas identified in assessment
+3. Include specific, real resources (not generic)
+4. Mix FREE and PREMIUM resources appropriately
+5. Include estimated time for each step
+6. Progress from beginner to advanced concepts
 
-For resources, include a mix of:
-- FREE resources: Official documentation, YouTube tutorials, free courses, blogs, open-source projects
-- PREMIUM resources: Paid courses (Udemy, Coursera, Pluralsight), books, paid platforms
+For EACH step, provide 3-4 REAL, SPECIFIC learning resources:
+- Use actual course names, book titles, platform names
+- Include real YouTube channels, documentation, tutorials
+- Specify platform (Udemy, Coursera, GitHub, YouTube, official docs, etc.)
+- For books: Include author names where applicable
+- For courses: Include instructor/platform names
+- Only include resources that actually exist
 
-For each resource, provide:
-- Real titles of actual courses/books/tutorials (e.g., "The Complete Python Bootcamp" by Jose Portilla on Udemy, not generic "Python course")
-- Real URLs when possible
-- Accurate descriptions
-- Correct resource type
+Example good resources:
+- "The Complete Python Bootcamp" by Jose Portilla on Udemy
+- "Python Official Documentation" at python.org
+- "Corey Schafer's Python Tutorials" on YouTube
+- "Introduction to Computation and Programming Using Python" by Guttag
 
-Return ONLY a valid JSON object with this exact structure:
+Return ONLY valid JSON with this structure:
 {
   "topic": "${topic}",
   "timeline": "${timeline}",
   "assessmentScore": ${assessmentScore},
-  "summary": "A comprehensive overview of the learning path",
-  "focusAreas": ["area1", "area2"],
+  "summary": "Brief overview of personalized roadmap based on assessment",
+  "focusAreas": ["area1", "area2", "area3"],
   "steps": [
     {
-      "title": "Step title",
-      "description": "What to learn in this step",
+      "id": 1,
+      "title": "Clear Step Title",
+      "description": "What learner will accomplish in this step",
       "estimatedTime": "1-2 weeks",
+      "keyTopics": ["topic1", "topic2", "topic3"],
       "resources": [
         {
-          "title": "Exact name of real resource",
-          "type": "tutorial|course|book|documentation|video",
-          "description": "What this specific resource teaches and why it's valuable",
+          "title": "Exact real resource name",
+          "type": "course|tutorial|book|documentation|video|interactive",
+          "description": "Why this resource is valuable for this step",
+          "creator": "Author/Instructor/Platform name",
           "isPremium": false,
-          "url": "https://example.com"
+          "url": "Real URL if available"
         }
       ]
     }
