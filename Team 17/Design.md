@@ -44,7 +44,10 @@ OpenAI TTS or AWS Polly (narration)
 
 OpenAI Moderation API (safety filtering)
 
-Storage: In‑memory cache (Python dict) for fast prototyping
+Storage: JSON file-based storage (no database required)
+  - Stories saved as JSON files in `/backend/stories/` directory
+  - Each story stored as `{storyId}.json`
+  - Simple, persistent, and perfect for hackathon projects
 
 Deployment: Render, Railway, or Vercel Functions (if Node.js)
 
@@ -103,7 +106,7 @@ Response
   ]
 }
 GET /api/story/{storyId}
-Retrieve saved story (memory store).
+Retrieve saved story from JSON file storage.
 
 POST /api/story/{storyId}/page/{page}/image
 Generate a child‑safe illustration for a specific page.
