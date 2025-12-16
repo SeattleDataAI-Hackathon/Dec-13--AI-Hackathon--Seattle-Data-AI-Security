@@ -1,0 +1,63 @@
+version: '3.8'
+
+services:
+  # MongoDB Database
+  mongodb:
+    image: mongo:6
+    container_name: techclub-mongodb
+    restart: unless-stopped
+    environment:
+      MONGO_INITDB_DATABASE: techclub_ai
+    volumes:
+      - mongodb_data:/data/db
+    ports:
+      - "27017:27017"
+    networks:
+      - techclub-network
+
+  # Backend API
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: techclub-backend
+    restart: unless-stopped
+    environment:
+      MONGODB_URL: mongodb://mongodb:27017
+      DATABASE_NAME: techclub_ai
+      OPENAI_API_KEY: ${OPENAI_API_KEY}
+      GITHUB_CLIENT_ID: ${GITHUB_CLIENT_ID}
+      GITHUB_CLIENT_SECRET: ${GITHUB_CLIENT_SECRET}
+      GITHUB_REDIRECT_URI: ${GITHUB_REDIRECT_URI:-http://localhost:3000/api/auth/callback/github}
+      JWT_SECRET_KEY: ${JWT_SECRET_KEY:-techclub-ai-secret-change-me}
+      FRONTEND_URL: ${FRONTEND_URL:-http://localhost:3000}
+    ports:
+      - "8000:8000"
+    depends_on:
+      - mongodb
+    networks:
+      - techclub-network
+
+  # Frontend
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: techclub-frontend
+    restart: unless-stopped
+    environment:
+      NEXT_PUBLIC_API_URL: http://localhost:8000/api
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+    networks:
+      - techclub-network
+
+volumes:
+  mongodb_data:
+
+networks:
+  techclub-network:
+    driver: bridge
+
