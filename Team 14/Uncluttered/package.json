@@ -1,0 +1,10 @@
+{
+  "name": "uncluttered-ai-agent",
+  "version": "0.0.1",
+  "description": "Full-stack React app with local Ollama AI integration",
+  "private": true,
+  "workspaces": [
+    "client",
+    "server"
+  ]
+}
