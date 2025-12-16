@@ -1,0 +1,17 @@
+node_modules
+dist
+.turbo
+.parcel-cache
+.next
+coverage
+
+.env
+.env.*
+
+__pycache__/
+.pytest_cache/
+.venv/
+env/
+venv/
+
+.DS_Store
