@@ -1,0 +1,8 @@
+Pillow
+pytesseract
+openai 
+pydantic
+numpy
+opencv-python
+streamlit
+python-dotenv
