@@ -1,0 +1,212 @@
+ADVANCED PAIN MANAGEMENT CENTER
+Patient Medical Record
+
+PATIENT: Jennifer Taylor
+DOB: 04/12/1972 (Age 52)
+MRN: 729841
+INSURANCE: Cigna PPO
+
+================================================================================
+DATE: March 15, 2024
+CHIEF COMPLAINT: Bilateral knee pain
+
+52 yo female with progressively worsening bilateral knee pain x 3 years. Worse with stairs, prolonged standing, getting up from seated position. Stiffness in AM lasting ~30 min. Pain 6-7/10 daily. Interfering with work (retail manager - on feet most of day) and recreational activities (used to hike regularly, now unable).
+
+PMH: Hypothyroidism, well-controlled on levothyroxine
+PSH: None
+Meds: Levothyroxine 100mcg daily, ibuprofen 400mg PRN (takes almost daily now)
+Allergies: NKDA
+
+EXAM:
+Bilateral knees: Moderate effusions, crepitus with ROM, mild varus deformity, tender along medial joint lines bilaterally. ROM: 0-110 degrees bilaterally (normal 0-135).
+
+X-RAYS (performed today): 
+Bilateral knees show moderate degenerative changes, joint space narrowing medial compartments, osteophyte formation. Kellgren-Lawrence Grade 3 osteoarthritis bilaterally.
+
+ASSESSMENT: Bilateral knee osteoarthritis, moderate-severe
+
+PLAN:
+1. Start meloxicam 15mg daily (better GI profile than ibuprofen)
+2. PT referral - focus on quadriceps strengthening, ROM exercises
+3. Weight reduction counseling (BMI 32 - losing 10% body weight can improve symptoms)
+4. Consider intra-articular cortisone if no improvement in 6-8 weeks
+5. F/u 8 weeks
+
+================================================================================
+DATE: May 20, 2024
+FOLLOW-UP VISIT
+
+Patient completed 8 weeks of PT (2x/week). Has been doing home exercises. Lost 8 lbs (good progress!). Still having significant pain, 5-6/10 daily. Meloxicam helps some but not enough.
+
+Discussed treatment options:
+- Cortisone injections (may provide temporary relief, 3-6 months)
+- Hyaluronic acid injections (covered by insurance, series of 3-5 injections)
+- Long-term: may need knee replacement if conservative measures fail
+
+Patient wants to try injections.
+
+PLAN: Intra-articular cortisone injection, bilateral knees today
+
+PROCEDURE: Bilateral knee arthrocentesis and corticosteroid injection
+Informed consent obtained. Using sterile technique, 40mg triamcinolone + 2cc 1% lidocaine injected into each knee joint. No complications. Patient tolerated well.
+
+PLAN: Follow up in 8-12 weeks to assess response
+
+================================================================================
+DATE: August 12, 2024  
+FOLLOW-UP
+
+Patient reports cortisone injections helped initially - had about 6 weeks of good relief, pain down to 3/10. But now back to baseline 6/10 pain. Disappointed that relief was temporary.
+
+Discussed options:
+1. Repeat cortisone (but diminishing returns with repeated injections)
+2. Trial of hyaluronic acid injections (series of 5 weekly injections)
+3. Consider surgical consultation for knee replacement
+
+Patient not ready for surgery. Wants to try hyaluronic acid series.
+
+PLAN: Schedule hyaluronic acid injection series (Synvisc-One) - covered by insurance
+
+================================================================================
+DATE: August 19, 2024
+First Hyaluronic Acid Injection - RIGHT knee
+
+Synvisc-One 6mL intra-articular injection right knee. Tolerated well.
+
+================================================================================
+DATE: August 26, 2024
+First Hyaluronic Acid Injection - LEFT knee
+
+Synvisc-One 6mL intra-articular injection left knee. Tolerated well.
+
+Patient reports right knee (injected last week) feels slightly better but hard to tell yet.
+
+================================================================================
+DATE: October 21, 2024
+FOLLOW-UP - Post hyaluronic acid series
+
+Patient completed bilateral hyaluronic acid injections 8 weeks ago. Reports minimal improvement. Pain still 5-6/10 daily. Very frustrated. Really wants to avoid surgery - she's only 52.
+
+Patient has been researching online and asking about PRP (platelet-rich plasma) injections. Says she read that PRP can actually help regenerate cartilage and provide longer-lasting relief than cortisone or hyaluronic acid. Has a friend who got PRP for her knee and "it completely fixed it."
+
+Discussed PRP:
+PROS: 
+- Uses patient's own blood (low risk)
+- Some studies show improvement in pain/function
+- May provide longer relief than cortisone
+- Possibly disease-modifying (though not proven)
+
+CONS:
+- Not FDA-approved for osteoarthritis specifically
+- Considered experimental by most insurance - likely NOT COVERED
+- Cost: ~$800-1000 per knee out of pocket
+- Evidence is mixed - not all studies show benefit
+- Not standardized (different protocols)
+
+Patient understands insurance likely won't cover but wants to try anyway. She's exhausted all standard options and is desperate to avoid surgery. Willing to pay out of pocket if needed.
+
+After lengthy discussion of risks, benefits, limitations of evidence, and costs, patient still wants to proceed.
+
+PLAN: 
+1. Will check with insurance for coverage (unlikely but will try)
+2. If approved, schedule bilateral PRP injections
+3. If denied, patient may choose to proceed as self-pay
+
+Patient signed informed consent for PRP therapy acknowledging:
+- Experimental/investigational nature
+- Lack of FDA approval for this indication  
+- Insurance may not cover
+- No guarantee of benefit
+- Alternative covered treatments available
+
+================================================================================
+INSURANCE PRE-DETERMINATION REQUEST
+Date: October 22, 2024
+
+Submitted request to Cigna for:
+CPT 0232T x 2 units (bilateral PRP injections)
+Diagnosis: M17.0 (Bilateral primary osteoarthritis of knee)
+
+Clinical justification letter attached documenting:
+- 3 year history of progressive bilateral knee osteoarthritis
+- Radiographic evidence of moderate-severe OA (Kellgren-Lawrence Grade 3)
+- Failed conservative treatments:
+  * NSAIDs (ibuprofen, then meloxicam) - minimal relief
+  * Physical therapy (8 weeks, 2x/week) - minimal improvement  
+  * Weight reduction (lost 8 lbs)
+  * Intra-articular corticosteroid injections - temporary relief only (6 weeks)
+  * Hyaluronic acid injection series - minimal benefit
+- Patient too young (52) for total knee replacement, wants to defer surgery
+- PRP may provide disease-modifying effect and longer symptom relief
+
+Request submitted 10/22/2024. Waiting for response.
+
+================================================================================
+INSURANCE RESPONSE
+Date: October 29, 2024
+
+Received denial from Cigna - PRP considered experimental/investigational, not covered per policy.
+
+Called patient to inform of denial. Patient still wants to proceed as self-pay. Says she'll pay $1,800 for both knees. Scheduled for November 8th.
+
+================================================================================
+DATE: November 8, 2024
+PROCEDURE NOTE: Bilateral PRP Injections
+
+PATIENT: Jennifer Taylor
+PROCEDURE: Platelet-Rich Plasma (PRP) injection, bilateral knees
+CPT: 0232T x 2
+
+INDICATION: Bilateral knee osteoarthritis refractory to conservative treatment including NSAIDs, physical therapy, corticosteroid injections, and hyaluronic acid injections. Patient wishes to defer total knee replacement and trial PRP therapy.
+
+CONSENT: Informed consent obtained. Patient counseled regarding experimental nature of treatment, lack of insurance coverage, out-of-pocket cost ($1,800 total), and uncertain efficacy. Patient verbalized understanding and wished to proceed.
+
+PROCEDURE:
+1. Venipuncture: 60cc whole blood drawn from left antecubital vein using sterile technique
+2. Blood processed in PRP centrifuge system (2 spin protocol) to concentrate platelets
+3. Final PRP yield: 8cc per knee
+
+RIGHT KNEE:
+- Skin prepped with chlorhexidine
+- Local anesthesia: 2cc 1% lidocaine subcutaneous  
+- Using ultrasound guidance, 22-gauge needle advanced into lateral knee joint
+- 8cc PRP injected into joint space
+- Needle removed, pressure applied, bandage placed
+
+LEFT KNEE:
+- Same procedure as right knee
+- 8cc PRP injected into joint space under ultrasound guidance
+- No complications
+
+PATIENT INSTRUCTIONS:
+- Rest for 48 hours, ice as needed for discomfort
+- Avoid NSAIDs for 2 weeks (may interfere with healing response)
+- Tylenol OK for pain
+- Gradual return to activities after 48 hours
+- May take 4-6 weeks to see benefit, maximal benefit at 3-6 months
+- Follow up in 6 weeks
+
+Patient tolerated procedure well. No immediate complications.
+
+Self-pay: $1,800.00 - Patient paid by credit card today
+
+Note: Claim will be submitted to insurance for documentation purposes, but patient aware of likely denial.
+
+Dr. Thomas Wright, MD
+Board Certified - Physical Medicine & Rehabilitation
+Fellowship Trained - Interventional Pain Management
+
+================================================================================
+BILLING NOTE
+Date: 11/9/2024
+
+Claim submitted to Cigna:
+CPT 0232T x 2 units
+Diagnosis: M17.0
+Amount: $1,800.00
+
+Patient paid in full at time of service ($1,800 by credit card).
+
+Note in chart that insurance pre-determined this would not be covered (experimental). Submitted claim for documentation/appeal purposes only. Patient not expecting reimbursement but wants claim on record.
+
+Claim submitted 11/9/2024.

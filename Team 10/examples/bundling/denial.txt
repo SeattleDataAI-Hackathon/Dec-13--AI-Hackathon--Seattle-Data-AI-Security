@@ -1,0 +1,41 @@
+EXPLANATION OF BENEFITS
+
+Date Processed: November 15, 2024
+Patient: David Chen  
+Member ID: XYZ123456789
+Claim Number: 2024-11-A49821
+Date of Service: October 18, 2024
+Provider: Metropolitan Gastroenterology Associates - Dr. Patricia Stevens
+
+SERVICE DETAILS:
+
+CPT 45378 - Diagnostic colonoscopy
+Allowed Amount: $1,245.00
+Paid to Provider: $996.00
+Patient Responsibility: $249.00 (20% coinsurance)
+Status: PAID
+
+CPT 45380 - Colonoscopy with biopsy, single or multiple  
+Billed Amount: $385.00
+Allowed Amount: $0.00
+Paid to Provider: $0.00
+Patient Responsibility: $0.00
+Status: DENIED - BUNDLED/INCIDENTAL
+
+DENIAL CODE: B16 - "Payment is included in the allowance for another service/procedure that has already been adjudicated"
+
+EXPLANATION:
+CPT code 45380 (colonoscopy with biopsy) is considered bundled into the payment for CPT 45378 (diagnostic colonoscopy). Current Procedural Terminology (CPT) guidelines and CMS National Correct Coding Initiative (NCCI) edits indicate that biopsies performed during a diagnostic colonoscopy are included in the base colonoscopy procedure code and should not be billed separately.
+
+When multiple biopsies are taken during a colonoscopy, the appropriate code is 45380, which replaces (not supplements) code 45378. Billing both codes together results in duplicate payment for the same procedure.
+
+CORRECTIVE ACTION NEEDED:
+If multiple biopsies were performed, the claim should be submitted with ONLY code 45380 (not both 45378 and 45380). Please review and resubmit if appropriate.
+
+This is not a patient billing. Your provider may not bill you for this denied service. Any questions regarding this denial should be directed to your provider's billing office.
+
+For questions, contact:
+Aetna Claims Department  
+1-800-555-7500
+
+This is not a bill. Please retain for your records.

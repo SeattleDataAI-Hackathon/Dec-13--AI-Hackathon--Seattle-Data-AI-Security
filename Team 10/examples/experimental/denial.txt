@@ -1,0 +1,69 @@
+CLAIM DENIAL NOTICE - ADVERSE DETERMINATION
+
+Date: December 2, 2024
+Patient Name: Jennifer Taylor
+Member ID: CIGNA-8847293
+Claim Number: CLM-2024-113456
+Date of Service: November 8, 2024
+Provider: Advanced Pain Management Center - Dr. Thomas Wright
+
+CLAIM DETAILS:
+Procedure: Platelet-Rich Plasma (PRP) Injection, bilateral knees
+CPT Code: 0232T (Injection of platelet rich plasma, any site, including image guidance)
+Diagnosis: M17.0 (Bilateral primary osteoarthritis of knee)
+Billed Amount: $1,800.00 (2 units)
+
+DENIAL REASON: EXPERIMENTAL/INVESTIGATIONAL - NOT MEDICALLY NECESSARY
+
+This claim has been denied after clinical review by our Medical Director. Platelet-rich plasma (PRP) injections for the treatment of osteoarthritis of the knee are considered experimental and investigational and are not covered under your health plan.
+
+CLINICAL RATIONALE FOR DENIAL:
+
+Based on review of current peer-reviewed medical literature and evidence-based clinical guidelines:
+
+1. **Insufficient Evidence**: While some studies suggest short-term symptom improvement with PRP injections for knee osteoarthritis, there is insufficient high-quality evidence demonstrating long-term efficacy, disease modification, or superiority to established treatments (e.g., corticosteroid injections, hyaluronic acid, physical therapy).
+
+2. **Lack of Standardization**: There is no consensus on PRP preparation methods, concentration protocols, injection frequency, or patient selection criteria. The wide variability in treatment protocols makes it impossible to establish evidence-based clinical guidelines.
+
+3. **Not FDA Approved**: PRP devices used for musculoskeletal conditions are not FDA-approved for osteoarthritis treatment specifically. The FDA considers these devices to be in investigational status for this indication.
+
+4. **Position Statements**: Major professional organizations including the American Academy of Orthopaedic Surgeons (AAOS) have issued "inconclusive" recommendations for PRP use in knee osteoarthritis due to insufficient evidence.
+
+5. **Coverage Policy**: Per Cigna Medical Coverage Policy #0531 - "Platelet-Rich Plasma (PRP) Therapy for Orthopedic Conditions" (effective 10/15/2024), PRP injections for knee osteoarthritis are considered investigational and not medically necessary.
+
+APPROVED ALTERNATIVES:
+
+Your plan covers the following evidence-based treatments for knee osteoarthritis:
+- Physical therapy and therapeutic exercise
+- Nonsteroidal anti-inflammatory drugs (NSAIDs)
+- Intra-articular corticosteroid injections
+- Intra-articular hyaluronic acid injections  
+- Total knee replacement surgery (when conservative measures fail)
+
+AMOUNT DUE: $1,800.00 - This service is not covered. Your provider may bill you for this service.
+
+APPEAL RIGHTS:
+
+You have the right to appeal this determination. Appeals must be submitted in writing within 180 days and should include:
+- Letter explaining why you believe the service should be covered
+- Any additional medical records or peer-reviewed studies supporting medical necessity
+- Letter from your treating physician explaining why standard treatments are inadequate
+
+Submit appeals to:
+Cigna Appeals Department
+P.O. Box 188011
+Chattanooga, TN 37422-8011
+
+You may also request an expedited appeal if your physician believes waiting for a standard appeal (30 days) could seriously jeopardize your health.
+
+External Review: If your appeal is denied, you have the right to request an independent external review by an independent third party.
+
+Questions? Contact Customer Service: 1-800-244-6224
+
+Medical Director Review Completed By:
+Dr. Amanda Richardson, MD, MBA
+Board Certified - Orthopedic Surgery
+Medical Director, Utilization Management
+Cigna Health Insurance
+
+Date: December 2, 2024

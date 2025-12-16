@@ -1,0 +1,75 @@
+PATIENT: James Mitchell
+PATIENT ID: PAT-2024-91234
+PROVIDER: Dr. Lisa Anderson, Family Medicine Associates
+
+================================================================================
+DATE: November 1, 2024
+VISIT TYPE: Annual Preventive Examination
+TIME: 10:00 AM
+
+REASON FOR VISIT: Annual physical exam, patient is 28 years old
+
+VITALS:
+BP: 118/76 mmHg
+HR: 72 bpm
+Temp: 98.4°F
+Height: 5'11"
+Weight: 175 lbs
+BMI: 24.4 (Normal)
+
+PREVENTIVE SCREENING COMPLETED:
+✓ Comprehensive physical examination
+✓ Blood pressure screening
+✓ BMI calculation and nutrition counseling
+✓ Depression screening (PHQ-2): Negative
+✓ Tobacco use screening: Non-smoker
+✓ Alcohol use screening: Social drinker, within normal limits
+
+REVIEW OF SYSTEMS:
+Generally healthy. Patient mentioned having occasional mild headaches over past month, usually in the afternoon. No vision changes, no nausea, no neurological symptoms. Attributes to increased screen time at new job. Headache is mild (2-3/10), resolves with rest. No fever, no recent illness.
+
+PAST MEDICAL HISTORY: None significant
+MEDICATIONS: None
+ALLERGIES: NKDA
+
+PHYSICAL EXAMINATION:
+General: Well-appearing, healthy male in no acute distress
+HEENT: Normocephalic, atraumatic. PERRLA. No papilledema. TMs clear bilaterally.
+Neck: Supple, no thyromegaly
+Cardiovascular: Regular rate and rhythm, no murmurs
+Lungs: Clear to auscultation bilaterally
+Abdomen: Soft, non-tender, no organomegaly
+Extremities: No edema, pulses intact
+Neurological: Cranial nerves II-XII intact, no focal deficits
+Skin: No concerning lesions
+
+ASSESSMENT:
+1. Routine annual preventive health examination - NORMAL EXAM, no abnormal findings
+2. Patient mention of mild tension headaches - likely related to increased computer use, no concerning features
+
+COUNSELING PROVIDED:
+- Discussed proper ergonomics for computer work
+- Advised on regular breaks from screen time
+- Recommended adequate hydration
+- Encouraged continued healthy lifestyle
+
+PLAN:
+1. Routine preventive care completed
+2. No medications needed for headaches - lifestyle modifications discussed
+3. Follow up in 1 year for next annual exam or sooner if any concerns
+
+IMMUNIZATIONS: Patient up to date, none needed today
+
+LABS ORDERED:
+- Lipid panel (preventive screening)
+- Complete blood count (preventive screening)
+
+DISPOSITION: Patient discharged home in good health
+
+================================================================================
+
+BILLING CODES SUBMITTED:
+CPT: 99385 - Preventive medicine service, 18-39 years
+ICD-10: R51 - Headache
+
+[NOTE: The visit was primarily preventive. The headache was mentioned in passing during ROS but was not the reason for visit, required no diagnostic workup, and required no treatment. The appropriate primary diagnosis code should have been Z00.00 (Encounter for general adult medical examination without abnormal findings). The headache could have been noted as a secondary diagnosis if needed, or addressed with modifier 33 to maintain preventive status.]
